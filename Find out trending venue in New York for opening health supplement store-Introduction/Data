@@ -1,3 +1,8 @@
-To start, I will use Foursquare queries in Jupyter Notebook to find out the latitude and lontitude of New York city. Specifically, I will
-use the geopy function to get latitude and longtitude of specific location such as New York. Then I will use the GET request fucntion 
-to get the tredning location of New York. 
+The data that I will use as source if the Foursquare data I obtain as a Foursquare developer. Foursqure is a platform that users
+can find local or distant locations' information, such as popular places nearby, people's reviews of places as well as ratings. 
+The data that can be obtained and used for finding out perfect location for opening health supplement store is obtained based on
+developer acccount's capabilities, not simply on user's account capability. In particular, the data essential for the task deals 
+with geographical information of New York as well as geographical spreadout of differnt kinds of places in New York. With detailed 
+knowledge of these former information, poeple can use Python together with Forsquare API to find out trenidng places and their categories,
+hence deciding where to set up offices. 
+
