@@ -1,0 +1,3 @@
+To start, I will use Foursquare queries in Jupyter Notebook to find out the latitude and lontitude of New York city. Specifically, I will
+use the geopy function to get latitude and longtitude of specific location such as New York. Then I will use the GET request fucntion 
+to get the tredning location of New York. 
