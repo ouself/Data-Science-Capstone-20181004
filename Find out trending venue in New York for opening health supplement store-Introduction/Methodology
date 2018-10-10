@@ -1,3 +1,11 @@
-To start, I will use Foursquare queries in Jupyter Notebook to find out the latitude and lontitude of New York city. Specifically, I will
-use the geopy function to get latitude and longtitude of specific location such as New York. Then I will use the GET request fucntion 
-to get the tredning location of New York. 
+To start, I begin websrapping the relvent data about neighbohood in the Canada neighborhood wikikipedia link
+(https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M) and obtain the table part showing deatiled neighborhood list 
+in Python Jupyter notebook. Then the data gets cleaned out in better organized format and transformed to dataframe that is
+related only to borough west Toronto. Then I utilized Foursquare API and geopy function in Jupyter Notebook to find out the latitude and lontitude of 
+west Toronto. 
+Later on, to better find out clusters. I first use request function to find out top 100 venues in west Toronto read then into dataframe. 
+The toatal 100 venues are then been better filter to get nearby venues for each neighborhood in west Toronto. These venues were 
+organized showing its categorires and longtitude, latitude. Finally, with getting only top-10 venues per neighborhood, I built out 
+clsuters and visualized the clusters using matplotlib. While setting cluster numbers of 5, each cluster is being diplayed in detail 
+such as category, and its common venue in order. 
+
