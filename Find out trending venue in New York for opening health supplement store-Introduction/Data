@@ -1,8 +1,10 @@
-The data that I will use as source if the Foursquare data I obtain as a Foursquare developer. Foursqure is a platform that users
-can find local or distant locations' information, such as popular places nearby, people's reviews of places as well as ratings. 
+The data that I will use as source include the Foursquare data I obtained as a Foursquare developer and Canada neighbohood information
+wkipedia page. Foursqure is a platform that users can find local or distant locations' information, such as popular places nearby, people's reviews of places as well as ratings. 
 The data that can be obtained and used for finding out perfect location for opening health supplement store is obtained based on
 developer acccount's capabilities, not simply on user's account capability. In particular, the data essential for the task deals 
-with geographical information of New York as well as geographical spreadout of differnt kinds of places in New York. With detailed 
-knowledge of these former information, poeple can use Python together with Forsquare API to find out trenidng places and their categories,
-hence deciding where to set up offices. 
+with geographical information of west Toronto as well as geographical spreadout of differnt kinds of places in west Toronto. With detailed 
+knowledge of these former information, poeple can use Python together with Forsquare API to find out places that cluster near each other 
+and conclude waht are some common types of groups of stores in west Toronto.
+The Canada neghborhood wikipedia page provides detailed information about Toronto all neighborhood and their longtitude and latitude. 
+This information creates a base for later analyzing the geohraphic Tornto layout and deatiled data visualization. 
 
