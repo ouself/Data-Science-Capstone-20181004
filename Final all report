@@ -1,30 +1,32 @@
 INTRODUCTION:
-Nowadays, people consume a lot of products and goods for daily eating and are eating in more varieties. With increased interest in trying
-new and diversified things including food choices, different restaurants are constantly working to get best quality ingredients and in
-fastest speed. As a popular modern city, Toronto has differnt parts that are great for dining out. Specifically, west Toronto has
-been a possible location for a food supply supermarket to open its store. Since people scatter around the city, it is hard for suppliers
-to know the demand of food in a concrete way. Hence, I would explore west Toronto to see how places cluster and whether the cluters formed
+Nowadays, people consume a lot of products and goods for daily eating and are eating in more varieties. With increased interest in 
+trying new and diversified things including food choices, different restaurants are constantly working to get best quality ingredients
+and in fastest speed. As a popular modern city, Toronto has different parts that are great for dining out. Specifically, west Toronto
+has been a possible location for a food supply supermarket to open its store. 
+Since people scatter around the city, it is hard for suppliers to know the demand of food in a concrete way. Hence, I would explore
+West Toronto to see how places cluster and whether the clusters formed
 in west Toronto can give some insight as to whether it is a good idea to set up food supply supermarket there or not.
 
 DATA:
 The data that I will use as source include the Foursquare data I obtained as a Foursquare developer and Canada neighborhood information
-wikipedia page. Foursquare is a platform that users can find local or distant locations' information, such as popular places nearby, people's reviews of places as well as ratings. 
+wikipedia page. Foursquare is a platform that users can find local or distant locations' information, such as popular places nearby, 
+people's reviews of places as well as ratings. 
 The data that can be obtained and used for finding out perfect location for opening health supplement store is obtained based on
 developer account's capabilities, not simply on user's account capability. In particular, the data essential for the task deals 
-with geographical information of west Toronto as well as geographical spread out of different kinds of places in west Toronto. With detailed 
-knowledge of these former information, people can use Python together with Foursquare API to find out places that cluster near each other 
-and conclude what are some common types of groups of stores in west Toronto.
+with geographical information of west Toronto as well as geographical spread out of different kinds of places in West Toronto.
+With detailed knowledge of these former information, people can use Python together with Foursquare API to find out places that 
+cluster near each other and conclude what are some common types of groups of stores in West Toronto.
 The Canada neighborhood wikipedia page provides detailed information about Toronto all neighborhood and their longitude and latitude. 
 This information creates a base for later analyzing the geohraphic Tornto layout and deatiled data visualization. 
 
 METHODOLOGY:
-To start, I begin websrapping the relvent data about neighbohood in the Canada neighborhood wikikipedia link
+To start, I begin websrapping the relevant data about neighbohood in the Canada neighborhood wikipedia link
 (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M) and obtain the table part showing deatiled neighborhood list 
 in Python Jupyter notebook. Then the data gets cleaned out in better organized format and transformed to dataframe that is
-related only to borough west Toronto. Then I utilized Foursquare API and geopy function in Jupyter Notebook to find out the latitude and longitude of 
-west Toronto. 
-Later on, to better find out clusters. I first use request function to find out top 100 venues in west Toronto read then into dataframe. 
-The total 100 venues are then been better filter to get nearby venues for each neighborhood in west Toronto. These venues were 
+related only to borough West Toronto. Then I utilized Foursquare API and geopy function in Jupyter Notebook to find out the latitude and
+longitude of West Toronto. 
+Later on, to better find out clusters. I first use request function to find out top 100 venues in West Toronto read then into dataframe. 
+The total 100 venues are then been better filter to get nearby venues for each neighborhood in West Toronto. These venues were 
 organized showing its categories and longtitude, latitude. Finally, with getting only top-10 venues per neighborhood, I built out 
 clusters and visualized the clusters using matplotlib. While setting cluster numbers of 5, each cluster is being displayed in detail 
 such as category, and its common venue in order. 
@@ -37,7 +39,7 @@ With clusters amount being set at 5 originally, the process produces 5 clusters 
 bar and coffee shop, second cluster has most common venue as Mexican Restaurant, third cluster has most common venue as Pizza Place,
 fourth cluster has most common venue as bakery, fourth cluster has most common venue as coffee shop. All clusters are mainly food 
 related and centered. 
-Fourthermore, with further exploration, there is no trending venue in west Toronto. 
+Fourthermore, with further exploration, there is no trending venue in West Toronto. 
 
 DISCUSSION:
 In the first sight of the result, west Toronto is a great place that has lots of restaurants and cafes gathering. This is supported by
